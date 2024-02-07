@@ -6,6 +6,7 @@ exercise_pattern = ["PUSH", "LEGS", "CARDIO", "ABS",
                     "PUSH", "LEGS", "CARDIO", "ABS",
                     "PULL", "LEGS", "CARDIO", "ABS"]
 
+
 def type_matches(item, item_type):
     type_list = list(item["exerciseTypes"])
     return item_type in type_list
@@ -52,7 +53,7 @@ def get_workout(available_equipment):
 
 
 # TEST 1
-#  print(get_workout(["Chair", "Kettle", "Space"]))
+print(get_workout(["Chair", "Kettle", "Space"]))
 
 
 # TEST 2

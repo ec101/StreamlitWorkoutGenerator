@@ -11,8 +11,6 @@ def load_exercises():
 
     # use json to load file string as json object
     json_data = json.loads(string_data)
-    # print(type(json_data))
-    print(type(json_data[0]))
     return json_data
 
 
